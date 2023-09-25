@@ -13,19 +13,22 @@ weight: 100
 toc: true
 ---
 
-[📗 Reference Docs →](https://docs.awspring.io/spring-cloud-aws/docs/2.4.1/reference/html/index.html)
+[📗 Reference Docs →](https://docs.awspring.io/spring-cloud-aws/docs/3.0.2/reference/html/index.html)
 
 ## Versions
 
 There are three actively developed versions of Spring Cloud AWS - depending on which version of Spring Boot is used in the project:
 
-- 2.3.5 - compatible with Spring Boot 2.4.x and 2.5.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.5/reference/html/index.html)
-- 2.4.1 - compatible with Spring Boot 2.6.x and 2.7.x - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.4.1/reference/html/index.html)
-- 3.0.0 (not released yet)  - compatible with Spring Boot 2.6.x and 2.7.x, build on the top of AWS SDK v2 - [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/3.0.0-SNAPSHOT/reference/html/index.html)
+| Version                | Reference Docs                                                                                   | API Docs                                                                            | Spring Cloud                                                                                                          | Spring Boot  | Spring Framework | AWS Java SDK |
+|------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|------------------|--------------|
+| Spring Cloud AWS 3.0.2 | [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/3.0.2/reference/html/index.html) | [API Docs](https://docs.awspring.io/spring-cloud-aws/docs/3.0.2/apidocs/index.html) | [2022.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2022.0-Release-Notes) (4.0/Kilburn) | 3.0.x        | 6.0.x            | 2.x          |
+| Spring Cloud AWS 2.4.4 | [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.4.4/reference/html/index.html) | [API Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.4.4/apidocs/index.html) | [2021.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2021.0-Release-Notes) (3.1/Jubilee) | 2.6.x, 2.7.x | 5.3.x            | 1.x          |
+| Spring Cloud AWS 2.3.5 | [Reference Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.5/reference/html/index.html) | [API Docs](https://docs.awspring.io/spring-cloud-aws/docs/2.3.5/apidocs/index.html) | [2020.0.x](https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2020.0-Release-Notes) (3.0/Illford) | 2.4.x, 2.5.x | 5.3.x            | 1.x          |
 
-Version 2.4.x is the latest stable release maintained under [awspring](https://github.com/awspring/spring-cloud-aws) GitHub organisation. This version is based on AWS SDK 1.x, it's open for contributions for both bugfixes and new features or integrations.
 
-Version 3.x is under heavy development. It is based on AWS SDK 2.x, with many integrations rewritten from scratch in order to align Spring Cloud AWS with patterns and practices introduced in Spring Boot.
+Version 3.0.2 is the latest stable release maintained under [awspring](https://github.com/awspring/spring-cloud-aws) GitHub organisation. It is based on AWS SDK 2.x, with many integrations rewritten from scratch in order to align Spring Cloud AWS with patterns and practices introduced in Spring Boot.
+
+The versions 2.3.x and 2.4.x are in maintenance mode.
 
 ## How to Contribute
 
